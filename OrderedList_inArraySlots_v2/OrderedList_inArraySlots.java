@@ -10,10 +10,10 @@ import java.util.*;
 public class OrderedList_inArraySlots
     implements OrderedList {
 
-    private ArrayList list_iAS;
+    private ArrayList<Integer> list_iAS;
 
     public OrderedList_inArraySlots() {
-        list_iAS = new ArrayList();
+        list_iAS = new ArrayList<Integer>();
     }
 
     /**
